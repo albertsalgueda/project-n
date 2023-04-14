@@ -10,7 +10,7 @@ Calcular la velocitat
 El gràfic ha de veure's en una pagina web
 
 ## Passos a seguir
-### 1
+### 1 DONE
 Github setup
 ### 2
 Funcio per guardar punt
