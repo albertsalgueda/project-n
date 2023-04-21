@@ -1,5 +1,19 @@
 # project-n
 
+------ FEEDBACK ----
+
+Recomano fer servir pandas per llegir el csv i interactuar amb les dades. 
+Exemple
+`
+import pandas as pd
+file_path = "data.csv"
+data = pd.read_csv(file_path)
+`
+Això crea un objecte que es diu pandas dataframe. Molt ràpid i fàcil de fer servir amb plotly, dash i altres llibreries de Data Science com TF...
+
+Bona feina!
+---------------------
+
  ## Concepte
  Visualitzar una posició tridimensional en una gràfica
 
