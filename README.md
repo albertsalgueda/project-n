@@ -17,15 +17,15 @@ Funcio per guardar punt
 Fem servir import random, usant un range concret
 exemple: posicio actual * index amb uns valors possibles maxims i minims
 ### 3
-Duncio per calcular la velocitat
-Importat el temps time.time()
-Amb el temps i la variació de posició podem calcular la velocitat
-### 4
 Funcio per guardar .csv
-### 5
+### 4
 LLegir l'archiu csv i fer una grafica
 import pandas as pd
 pc.reac_csv(path)  : exemple de funcio d'us de csv com a dades per a un grafic
+### 5
+Funcio per calcular la velocitat
+Importat el temps time.time()
+Amb el temps i la variació de posició podem calcular la velocitat
 ### 6
 Render
 Plotly (minimo)         https://dash.gallery/dash-wind-streaming/
