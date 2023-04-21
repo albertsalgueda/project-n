@@ -1,6 +1,7 @@
 import numpy as np
 import random as random
 import time as time
+import csv
 #Numpy info: https://www.digitalocean.com/community/tutorials/vectors-in-python
 #Random info: https://www.w3schools.com/python/module_random.asp
 
@@ -56,5 +57,6 @@ def llista_punts(punt,pasos,pas_maxim,t_inici,periode):
             time.sleep(periode)
 
 if __name__ == "__main__":
-    #llista_punts(punt_inici,pasos,pas_maxim,t_inici,periode)
-    generar_infinit(punt_inici,pasos,pas_maxim,t_inici,periode)
+    llista_punts(punt_inici,pasos,pas_maxim,t_inici,periode)
+    #generar_infinit(punt_inici,pasos,pas_maxim,t_inici,periode)
+
