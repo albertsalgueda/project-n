@@ -6,6 +6,7 @@ dades = [
     ['x:','y:', 'z:','temps:'],
 ]
 
-with open('archivo.csv','w',newline='') as file:
-    writer = csv.writer(file, delimiter=',')
-    writer.writerows(dades)
+def functiondades(dades):
+    with open('archivo.csv','w',newline='') as file:
+        writer = csv.writer(file, delimiter=',')
+        writer.writerows(dades)
