@@ -7,6 +7,6 @@ dades = [
 ]
 
 def functiondades(dades):
-    with open('archivo.csv','w',newline='') as file:
+    with open('archivo.csv','a',newline='') as file:
         writer = csv.writer(file, delimiter=',')
-        writer.writerows(dades)
+        writer.writerows([dades])
