@@ -44,8 +44,9 @@ pc.reac_csv(path)  : exemple de funcio d'us de csv com a dades per a un grafic
 Funcio per calcular la velocitat
 Importat el temps time.time()
 Amb el temps i la variació de posició podem calcular la velocitat
-    https://www.youtube.com/watch?v=jvPPXbo87ds
+    Explicacio splines: https://www.youtube.com/watch?v=jvPPXbo87ds
     Usarem la spline Catmull-Rom per calcular la velocitat
+    Matplotlib i splines: https://splines.readthedocs.io/en/latest/euclidean/catmull-rom-properties.html
 ### 6 - MarcAndres
 Render
 Plotly (minimo)         https://dash.gallery/dash-wind-streaming/
