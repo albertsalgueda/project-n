@@ -31,3 +31,47 @@ def main_infinite():
 if __name__ == "__main__":
     #main()
     main_infinite()
+    
+    
+    """
+    import dash
+from dash import dcc, html
+from dash.dependencies import Input, Output
+import plotly.graph_objs as go
+import random
+
+# Inicializa la Dash APP
+
+app = dash.Dash(__name__)
+
+
+app.layout = html.Div([
+    dcc.Graph(id='live-graph', animate=True),
+    dcc.Interval(
+        id='interval-component',
+        interval=1*1000,  # Intervalo en milisegundos (1 segundo)
+        n_intervals=0
+    )
+])
+
+@app.callback(Output('live-graph', 'figure'),
+              [Input('interval-component', 'n_intervals')])
+def update_graph(n):
+    # Simula datos en tiempo real
+    x = list(range(10))
+    y = [random.randint(1, 10) for _ in range(10)]
+
+    # Crea el gráfico con los datos actualizados
+    data = go.Scatter(
+        x=x,
+        y=y,
+        mode='lines+markers'
+    )
+
+    return {'data': [data],
+            'layout': go.Layout(xaxis=dict(range=[min(x), max(x)]),
+                                yaxis=dict(range=[min(y), max(y)]))}
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
+"""
