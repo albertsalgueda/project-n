@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 import matplotlib.pyplot as plt
 #https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plotting.html
@@ -16,3 +17,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
